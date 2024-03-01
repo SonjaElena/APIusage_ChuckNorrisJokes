@@ -13,11 +13,11 @@
     <div class="container">
         <h1>Chuck Norris Joke</h1>
 
-        <blockquote class="joke">Loading ...</blockquote>
+        <blockquote id="joke">Loading ...</blockquote>
 
         <div class="buttons">
-            <button>New Joke</button>
-            <button><img src="twitter.png"> Tweet</button>
+            <button onclick="getjoke(api_url)">New Joke</button>
+            <button onclick="tweetnow()"><img src="twitter.png"> Tweet</button>
         </div>
     </div>
 
